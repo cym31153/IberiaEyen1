@@ -1,7 +1,7 @@
 export default {
   server: {
-    port: 8000, // default: 3000
-    host: '0.0.0.0' // default: localhost
+    port: 21666, // default: 3000
+    host: '143.47.242.18' // default: localhost
   },
 
   // https://go.nuxtjs.dev/ssr-mode
@@ -12,14 +12,14 @@ export default {
 
   //  https://go.nuxtjs.dev/config-head
   head: {
-    title: '伊比利亚审判庭',
+    title: 'CORN ARK',
     meta: [
       { charset: 'utf-8' },
       {
         name: 'viewport',
         content: 'width=device-width, initial-scale=1, user-scalable=no'
       },
-      { name: 'description', content: '伊比利亚审判庭 - 明日方舟云托管平台' }
+      { name: 'description', content: '伊比利亚审判庭 - 明日方舟云托管平台 - powered by Corn' }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
